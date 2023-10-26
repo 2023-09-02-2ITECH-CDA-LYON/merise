@@ -39,7 +39,7 @@ Dans le MCD, un attribut ou nom d'association doit être unique, cependant, il e
 - FK : *classe* fait référence à **id_classe** de Classe
 7. Classe(**id_classe**, nb_etoile)
 - PK : **id_classe**
-8. Client(**id_client**, nom_client, prenom_client, numero_rue_client, nom_rue_client, code_postale_client, ville_client)
+8. Client(**id_client**, nom_client, prenom_client)
 - - PK : **id_client**
 9. PrestationArticle(**prestation**,**article**, **quantite**)
 - PK : couple **prestation** et **article**
